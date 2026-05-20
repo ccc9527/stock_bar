@@ -1,0 +1,1 @@
+pyinstaller --clean -F -w stock_bar.py
