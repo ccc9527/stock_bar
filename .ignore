@@ -1,0 +1,74 @@
+# ==========================================
+# 1. Python 运行缓存与编译文件 (必须忽略)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# 2. 虚拟环境 (绝对不要传到 GitHub)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# 3. 打包与分发文件 (如果你在写 Python 包)
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 4. 自动化测试、代码检查与覆盖率报告
+# ==========================================
+htmlcov/
+.toml/
+.html/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+
+# ==========================================
+# 5. IDE 与编辑器缓存 (根据团队习惯决定)
+# ==========================================
+.idea/             # PyCharm 配置
+.vscode/           # VS Code 配置（如果想同步插件推荐，可以只保留 extensions.json）
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 6. 敏感信息与环境变量 (千万别公开！)
+# ==========================================
+.env
+.env.*
+secret.json
+secrets/
